@@ -1,8 +1,8 @@
-h1, h2, h3, p { font-family: 'Roboto', 'Open Sans', sans-serif; }
+h1, h2, h3, p { font-family: 'Raleway', 'Open Sans', sans-serif; }
 
 header > h2{
-    background-color: #cf9832;
-    color: black;
+    background-color: #233d4d;
+    color: #a1c181;
     border: 5px solid black;
     margin: 0 0 20px auto;
     
@@ -34,8 +34,8 @@ img{
 }
 footer > p{
     margin: 20px 0 0 auto;
-    background-color: #cf9832;
-    color: black;
+    background-color: #233d4d;
+    color: #a1c181;
     border: 5px solid black;
 }
 
