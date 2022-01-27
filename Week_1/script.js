@@ -1,3 +1,6 @@
-var string = document.lastModified;
-let oLastModif = new Date(document.lastModified);
-document.getElementsById("date").innerHTML = string;
+const date = new Date();
+const year = date.getFullYear();
+
+
+document.querySelector("#year").textContent = year;
+document.getElementById("updated").innerHTML = `Last Updated: ${document.lastModified}`;
