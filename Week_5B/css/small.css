@@ -1,5 +1,5 @@
 body {
-  background-color: #C2C5AA;
+  background-color: white;
 }
 
 h1,
@@ -30,7 +30,7 @@ nav button {
 }
 
 nav {
-  background-color: #656D4A;
+  background-color: rgb(60, 101, 233);
 }
 
 nav ul {
@@ -49,7 +49,7 @@ nav ul li a {
 
 nav ul li.active a {
   background-color: rgba(0, 0, 0, 0.2);
-  color: #C2C5AA;
+  color: #fff;
 }
 
 nav ul li a:hover {
