@@ -7,6 +7,7 @@ p,
 div,
 footer {
   margin: 0 2vw;
+  font-family: "Poppins", sans-serif;
 }
 
 div.nav_logo {
@@ -30,7 +31,9 @@ nav button {
 }
 
 nav {
-  background-color: rgb(60, 101, 233);
+  background-color: #656d4a;
+  font-size: medium;
+  font-family: "Poppins", sans-serif;
 }
 
 nav ul {
@@ -44,7 +47,7 @@ nav ul li a {
   padding: 0.8rem 2vw;
   text-decoration: none;
   color: #333;
-  border-top: 1px solid rgba(0, 0, 0, 0.5);
+  border-top: 2px solid rgba(0, 0, 0, 0.5);
 }
 
 nav ul li.active a {
