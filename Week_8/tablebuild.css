@@ -1,0 +1,18 @@
+body {
+  font-family: Ubuntu, sans-serif;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+table {
+  background-color: #dbd8b3;
+  margin: 0 auto;
+  margin-top: 5rem;
+}
+.tableHeader:nth-child(even) {
+  background-color: #c6d8af;
+}
+.tableBody:nth-child(even) {
+  background-color: #c6d8af;
+}
