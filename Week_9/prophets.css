@@ -7,7 +7,8 @@ h1,
 p,
 footer {
   text-align: center;
-  color: darkslateblue;
+  color: #373f51;
+  font-family: "Roboto Slab", serif;
 }
 
 h2,
@@ -23,7 +24,7 @@ h1 {
 .cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-  background-color: lightgrey;
+  background-color: #d8dbe2;
   margin: 1rem;
   padding: 1rem;
   box-shadow: 0 0 3rem;
@@ -33,7 +34,7 @@ h1 {
   margin: 0.2rem;
   display: flex;
   flex-direction: column;
-  background-color: lavender;
+  background-color: #58a4b0;
 }
 img {
   width: 13rem;
