@@ -23,8 +23,8 @@ function displayProphets(prophet) {
     h2.textContent = prophet.name + ' ' + prophet.lastname;
 
     //birthPlaca and birthDate
-    birthDate.textContent = 'Date of Birth: ' + prophet.birthdate
-    birthPlace.textContent = 'Place of Birth: ' + prophet.birthplace
+    birthDate.innerHTML = '<b>Date of Birth: </b>' + prophet.birthdate
+    birthPlace.innerHTML = '<b>Place of Birth: </b>' + prophet.birthplace
   
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values.
     image.setAttribute('src', prophet.imageurl);
